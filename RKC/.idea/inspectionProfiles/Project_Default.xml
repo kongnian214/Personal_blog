@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="12">
+            <item index="0" class="java.lang.String" itemvalue="requests" />
+            <item index="1" class="java.lang.String" itemvalue="numpy" />
+            <item index="2" class="java.lang.String" itemvalue="tqdm" />
+            <item index="3" class="java.lang.String" itemvalue="pandas" />
+            <item index="4" class="java.lang.String" itemvalue="seaborn" />
+            <item index="5" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="6" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="7" class="java.lang.String" itemvalue="Pillow" />
+            <item index="8" class="java.lang.String" itemvalue="torch" />
+            <item index="9" class="java.lang.String" itemvalue="torchvision" />
+            <item index="10" class="java.lang.String" itemvalue="openvino-dev" />
+            <item index="11" class="java.lang.String" itemvalue="tensorflowjs" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="dnfm-auto-main" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="null:scipy:1.4.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="不可利用" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
